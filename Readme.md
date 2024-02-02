@@ -1,8 +1,8 @@
 # Личный проект «Седона»
 
-* Студент: [Сергей](https://up.htmlacademy.ru/htmlcss/39/user/174517).
+* Студент: [Сергей Варнавский](https://up.htmlacademy.ru/htmlcss/39/user/174517).
 * Наставник: [Дина Шарипова](https://github.com/Dina0308).
-
+* Сайт [Мой проект Седона](https://sergio4558.github.io/174517-sedona-39/)
 ---
 
 _Не удаляйте и не обращайте внимание на файлы:_<br>
