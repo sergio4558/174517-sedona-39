@@ -1,0 +1,238 @@
+@font-face {
+  font-family: "PT sans";
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/ptsans-400.woff2) format("woff2");
+  font-display: swap;
+}
+@font-face {
+  font-family: "PT sans";
+  font-style: normal;
+  font-weight: 700;
+  src: url(../fonts/ptsans-700.woff2) format("woff2");
+  font-display: swap;
+}
+body {
+  font-family: "PT sans", sans-serif;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+  background-color: #ffffff;
+}
+.page-header {
+  color:#000000;
+  background: #ffffff;
+}
+.navigation-link {
+  font-size: 20px;
+  line-height: 24px;
+  color: inherit;
+  font-weight: 700;
+  background-color: #ffffff;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+}
+.header-menu-item {
+text-align: center;
+}
+.hero {
+  color: #000000;
+  background-color: #ffffff;
+  background-image: url(/images/hero.jpg);
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 485px;
+  display: block;
+  margin: 0 auto 0 auto;
+
+}
+.welcome {
+width: 458;
+height: 352px;
+padding-top: 51px;
+padding-left: 371px;
+}
+
+
+.visually-hidden {
+  display: none;
+}
+.advantages, .resons, .search, .header, .footer {
+  text-align: center;
+}
+.advantages-lead {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.advantages-main {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+}
+.advantages-item {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+
+}
+.advantages-description {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+
+}
+.resons-caption {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  text-transform: uppercase;
+
+}
+.resons-description {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+
+}
+.resons-title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 28px;
+  text-transform: uppercase;
+
+}
+.resons-desc {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 21px;
+
+}
+
+
+.search-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+
+}
+.search-time {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+
+}
+.search-btn {
+  background-color: #756157;
+  width: 376px;
+  height: 52px;
+  border-radius: 4px;
+  margin: 0 auto;
+  display: block;
+
+
+}
+.search-hotel {
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #ffffff;
+
+}
+.header-title {
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 36px;
+  color: #ffffff;
+  padding-top: 96px;
+
+}
+.header-info {
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 26px;
+  color: #ffffff;
+  padding-top: 20px;
+}
+.header {
+  background-image: url("/images/Subscribe_background.jpg");
+  width: 1200px;
+  height: 415px;
+  display: block;
+  margin: 0 auto 0 auto;
+}
+.form {
+  width: 684px;
+  height: 52px;
+}
+.footer {
+  text-align: center;
+}
+.footer a {
+  text-decoration: none;
+}
+.tel {
+color: #000000;
+}
+.choice {
+  color: #ffffff;
+  background-color: #000000;
+  background-image: url(/images/filter_background.jpg);
+  background-repeat: no-repeat;
+  width: 1200px;
+  height: 412px;
+  display: block;
+  margin: 0 auto 0 auto;
+}
+.hotels-title {
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 78px;
+  padding-left: 70px;
+  padding-top: 35px;
+}
+.hotels-filter a {
+text-decoration: none;
+color: inherit;
+}
+.main-check {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+.checkbox {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 23px;
+}
+.results-title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 36px;
+  text-transform: uppercase;
+}
+.results-list {
+  color: #000000;
+  background-color: #ffffff;
+}
+.results {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+
+}
+.hotel-price {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-transform: uppercase;
+}
+.rating {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-align: center;
+}

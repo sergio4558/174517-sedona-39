@@ -6,31 +6,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Каталог</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles/style.css">
   </head>
 
   <body>
     <header>
       <nav class="header-navigation">
-        <a href="index.html" class="navigation-logo" aria-current="page"><img src="" alt="логотип сайта"></a>
+        <a href="/index.html" class="navigation-logo" aria-current="page"><img src="/images/icons/logo.svg" alt="логотип сайта"></p>
         <ul>
           <li class="header-navigation-item">
-            <a href="index.html" class="navigation-link">Главная</a>
+            <a href="/index.html" class="navigation-link">Главная</a>
           </li>
           <li class="header-navigation-item">
             <a href="#" class="navigation-link">О Седоне</a>
           </li>
           <li class="header-navigation-item">
-            <a href="#" class="navigation-link navigation-link-current">Гостиницы</a>
+
           </li>
         </ul>
         <ul class="header-menu-list">
           <li class="header-menu-item">
-            <a href="#" class="header-search">поиск</a>
+            <img src="/images/icons/search.svg" alt="поиск">
+
 
           </li>
 
           <li class="header-menu-item">
-            <a href="#">Избранное</a>
+            <img src="/images/icons/heart.svg" alt="Избранное">
+
 
           </li>
 
@@ -41,23 +44,27 @@
 
         </ul>
       </nav>
-
     </header>
     <main>
       <section class="hotels-filter">
-        <h1 class="hotels-title">Гостиницы Седоны</h1>
-        <a href="index.html" class="home">на главную</a>
-        гостиницы
+        <div class="choice">
+          <h1 class="hotels-title">Гостиницы Седоны</h1>
+        <a href="index.html" class="home"><img src="/images/icons/home.svg" alt="на главную">
+        </a>
+        <a href="#" class="hotels"><img src="/images/icons/arrow.svg" alt="на гостиницы">Гостиницы
+        </a>
+
+
         <form action="#" method="post">
-          <legend>Инфраструктура</legend>
-          <label><input type="checkbox" checked>Бассейн</label>
-          <label><input type="checkbox" checked>Парковка</label>
-          <label><input type="checkbox">Wi-fi</label>
-          <legend>Тип Жилья</legend>
-          <label><input type="radio" name="type">Гостиница</label>
-          <label><input type="radio" name="type">Мотель</label>
-          <label><input type="radio" name="type">Аппартаменты</label>
-          <legend>Стоимость, &#8381:</legend>
+          <legend class="main-check">Инфраструктура</legend>
+          <label class="checkbox"><input type="checkbox" checked>Бассейн</label>
+          <label class="checkbox"><input type="checkbox" checked>Парковка</label>
+          <label class="checkbox"><input type="checkbox">Wi-fi</label>
+          <legend class="main-check">Тип Жилья</legend>
+          <label class="checkbox"><input type="radio" name="type">Гостиница</label>
+          <label class="checkbox"><input type="radio" name="type">Мотель</label>
+          <label class="checkbox"><input type="radio" name="type">Аппартаменты</label>
+          <legend class="main-check">Стоимость, &#8381:</legend>
           <label>
             <input type="text" value="0" placeholder="от">
             <input type="text" value="9000" placeholder="до"><br>
@@ -66,7 +73,8 @@
           <button>ПРИМЕНИТЬ</button>
           <button>СБРОСИТЬ</button>
 
-        </form>
+          </form>
+        </div>
         <section class="results">
           <h2 class="results-title">НАЙДЕНО ГОСТИНИЦ: 38</h2>
           <select name="filter" id="">
@@ -76,11 +84,12 @@
           <button>отображение плиткой</button>
           <button>отображение экскизом</button>
           <button>отображение списком</button>
+
           <ul class="resuls-list">
             <li>
+              <img src="/images/hotels/hotel-1.jpg" alt="гостиница №1">
               <h3 class="results-1">Amara Resort & Spa</h3>
-              <img src="#" alt="гостиница №1">
-              <p>Гостиница от 4000р</p>
+              <p class="hotel-price">Гостиница от 4000р</p>
               <button>Подробнее</button>
               <button>В избранное</button>
               <div class="rating-mini">
@@ -90,12 +99,12 @@
                 <span></span>
                 <span></span>
               </div>
-              <p>рейтинг: 8,5</p>
+              <p class="rating">рейтинг: 8,5</p>
             </li>
             <li>
-              <h3 class="results-2">Villas at Poco Diablo</h3>
-              <img src="#" alt="гостиница №2">
-              <p>Гостиница от 5000р</p>
+              <img src="/images/hotels/hotel-2.jpg" alt="гостиница №2">
+              <h3 class="results-2 results">Villas at Poco Diablo</h3>
+              <p class="hotel-price">Гостиница от 5000р</p>
               <button>Подробнее</button>
               <button>В избранное</button>
               <div class="rating-mini">
@@ -105,12 +114,12 @@
                 <span></span>
                 <span></span>
               </div>
-              <p>рейтинг: 9,2</p>
+              <p class="rating">рейтинг: 9,2</p>
             </li>
             <li>
-              <h3 class="results-3">Desert Quail Inn</h3>
-              <img src="#" alt="гостиница №3">
-              <p>Гостиница от 2500</p>
+              <img src="/images/hotels/hotel-3.jpg" alt="гостиница №3">
+              <h3 class="results-3 results">Desert Quail Inn</h3>
+              <p class="hotel-price">Гостиница от 2500</p>
               <button>Подробнее</button>
               <button>В избранное</button>
               <div class="rating-mini">
@@ -120,12 +129,12 @@
                 <span></span>
                 <span></span>
               </div>
-              <p>рейтинг: 6,9</p>
+              <p class="rating">рейтинг: 6,9</p>
             </li>
             <li>
-              <h3 class="results-4">GreenTree Inn</h3>
-              <img src="#" alt="гостиница №4">
-              <p>Гостиница от 1500</p>
+              <img src="/images/hotels/hotel-4.jpg" alt="гостиница №4">
+              <h3 class="results-4 results">GreenTree Inn</h3>
+              <p class="hotel-price">Гостиница от 1500</p>
               <button>Подробнее</button>
               <button>В избранное</button>
               <div class="rating-mini">
@@ -135,7 +144,7 @@
                 <span></span>
                 <span></span>
               </div>
-              <p>рейтинг: 5,0</p>
+              <p class="rating">рейтинг: 5,0</p>
             </li>
           </ul>
           <ol class="page-list">
